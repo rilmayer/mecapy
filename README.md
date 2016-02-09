@@ -3,8 +3,8 @@ mecab-pythonがインストールできない（自分含めた）残念な人�
 
 # 使い方
 以下のように使ってください。
-import mecapy
 
+    import mecapy
     string = "国境の長いトンネルを抜けるとそこは雪国だった。"
     m = mecab.Mecab(string)
     
