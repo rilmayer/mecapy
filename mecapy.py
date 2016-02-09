@@ -37,7 +37,7 @@ class Mecab:
           string str： 解析したい文字列
           opt str： mecabの解析オプション
         (返り値)
-          stdout str： 解析した結果そのまま
+          words_with_ma_info list： 解析した結果を改行で分割したリスト
         """
         import subprocess
         cmd = 'echo %s | mecab' % string.replace('\n', '')
